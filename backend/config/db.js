@@ -8,5 +8,4 @@ const mysql = require('mysql2/promise'); // Import promise-based version
     waitForConnections: true
   });
 
-
 module.exports = pool;
